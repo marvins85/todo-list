@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+.pop{
+    position: absolute;
+    display: none;
+    background: darkgrey;
+    height: 200px;
+    width: 250px;
+    border: black solid 1px;
+    padding: 10px;
+    margin: 10px;
+    top: 70px;
+    left: 120px;
+}
+
+li{
+    list-style: none;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.projects{
+    width: 35%;
+    background: lightgray;
+    padding: 20px;
+    height: 100vh;
+}
+
+.pain{
+    padding-top: 10px;
+}
+
+.list{
+    width: 65%;
+    padding: 20px;
+}
+
+.info{
+    padding-top: 15px;
+}
+
+.info2{
+    padding: 15px;
+}
+
+button{
+    padding: 5px 20px;
+    border-radius: 7px;
+}
+
+.tinfo{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.box{
+    position: absolute;
+    top: 150px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border: black solid 1px;
+    width: 810px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.box2{
+    border: black solid 1px;
+    margin-left: 5px;
+    width: 75%;
+    height: 50%;
+    border-radius: 5px;
+}
+
+.box button{
+    margin-left: 5px;
+}
+
+.box2 input{
+    border-style: none;
+    height: 20px;
+    width: 570px;
+    margin: 1px;
+}
+
+*:focus{
+    outline: none;
+}
+
+.details{
+    padding-top: 15px;
+}
+

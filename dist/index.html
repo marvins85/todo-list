@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+</head>
+<body>
+
+    <!-- Main Page -->
+<div class="wrapper">
+    <!-- Left side -->
+<div class="projects">
+    <div class="pain">
+    <h1>Projects</h1>
+</div>
+    <button onclick="window.add()">Add Project</button>
+    <div class="info">
+    </div>
+</div>
+
+<!-- Right side -->
+<div class="list">
+    <div class="tinfo">
+    <h1>List</h1>
+    <div class="info2"></div>
+</div>
+    <button onclick="window.list()">Add List</button>
+    <div class="details">
+        
+    </div>
+</div>
+</div>
+
+
+<!-- Pop-ups -->
+<div class="pop">
+    <form>
+        <label for="pname">Project Name:</label>
+        <input type="text" id="pname" name="pname"><br><br>
+        <label for="dname">Project Description:</label>
+        <input type="text" id="dname" name="dname"><br><br>
+        <button id="but" onclick="window.adds(event)" >Submit</button>
+        <button onclick="window.empty(event)">Cancel</button>
+      </form>
+</div>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
